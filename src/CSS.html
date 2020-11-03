@@ -1,0 +1,92 @@
+ <!doctype html>
+<html lang="de">
+ <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scale=no">
+	<title>HTML Tutorial - StV</title>
+	<link rel="stylesheet" href="../css/style.css">
+ </head>
+    
+ <body>
+	<sction id="menubar">
+		<ul>
+			<li><a class="menubutton" href="#menu"><img src="images/pull_down_menu.png"></a></li>
+		</ul>
+	</sction>
+	
+	<haeder>
+		<h1>HTML Tutorial</h1>
+	</haeder>
+	
+	<nav class="navi">
+		<ul>
+			<li><a href="../index.html" >Home</a></li>
+			<li><a href="html.html" >HTML</a></li>
+			<li><a href="css.html" class="active"><b>CSS</b></a></li>
+		</ul>
+	</nav>
+	
+	<section id="main">
+		<eintrag>
+			<h2>CSS</h2>
+			<p>
+			Das Stylesheet einer responsiven Seite, unterscheidet sich im gröben von einem oder mehreren Styleteilen.
+			In diesem Beispiel wird in einem Generellen Teil alle grundlegenden Informationen geschrteiben, die benötigt werden um eine Desktopansicht zu erstellen. 
+			Bei den weiteren Styleteilen wird das Aussehen der Seite, in Zusammenhang mit dem Seitenbreite angepasst.
+			</p>
+			<h2>Media Queries</h2>
+			<p>
+			Mit Medienabfragen (Media Queries) können Sie die Darstellung eines Dokuments für verschiedene Ausgabemedien festlegen.
+			Dabei wird nicht ermittelt, um welchen Browser es sich handelt, sondern welcher Medientyp (z.B. Bildschirm oder Drucker), oder Medienmerkmal (z.B. Farbfähigkeit) oder einer Kombination aus beidem der Browser vorfindet.
+			Erfüllt das verwendete Ausgabemedium alle Kriterien einer Medienabfrage, so wird die damit verknüpfte CSS-Ressource eingebunden. 
+			</p>
+			<p>
+			<img src="../images/example2.png">
+			</p>
+			<h2>Feste oder relative Größen</h2>
+			<p>
+			Gerade Anfänger entwickeln ein Layout anhand der realen Pixel der Bildschirmauflösung ihres Geräts, meist eines Desktop-Computers.
+			Dabei vernachlässigen sie jedoch wieder die vielen anderen und auch zukünftig noch erscheinenden Geräte. Des Weiteren können Webseiten in Mobilgeräten mit einem Wisch skaliert werden.
+			John Alsopp vergleicht Webdesign in „A Dao of Web Design “ mit Wasser, dessen Fluss zwar gelenkt, aber nicht künstlich aufgestaut werden kann.
+			</p>
+			<p>
+			Die Maxime, Webseiten auf allen Ausgabegeräten gleich aussehen zu lassen, muss schon an der unterschiedlichen Pixeldichte von Mac (72dpi) gegenüber Windows (96dpi) scheitern, bei denen ein fester Wert von body {font-size: 14px} per se keine gleichen Abmessungen erzielt.
+			Empfehlung: Richten Sie die Abmessungen von Schriftgröße, Seitenelementen und den Breakpoints der media queries nicht nach festen Pixeln, sondern nach relativen Größen wie em oder rem aus, sodass sich das Layout an den tatsächlich vorhandenen Schriftgrößen ausrichtet.
+			</p>
+			<p>
+			Eine Ausnahme bilden verschachtelte Elemente wie Logos, Sticker und Buttons, bei denen die Kindelemente in festen Relationen zueinander stehen. Hier können feste Pixelgrößen helfen, das Aussehen gleich zu halten. 
+			</p>				
+		</eintrag>
+			
+		<aside>
+			<section>
+				<h3>Kategorien</h3>
+					<ul>
+						<li><a href="../index.html">Homepage</li>
+						<li><a href="html.html">HTML Tutorial</li>
+					</ul>
+			</section>
+			<section>
+				<h3>Tipps</h3>
+				<ul>
+					<li><a href=https://wiki.selfhtml.org/wiki/Startseie >selfhtml </li>
+					<li><a href=https://www.w3schools.com/>w3school</li>	
+					<li><a href=https://htmlcolorcodes.com>HTML Color Codes</li>
+					<li><a href=http://www.findtube.de/cgi-bin/lexikon_Liste_von_Schriftarten_de.html >HTML Schriften</li>
+					<li><a href=http://pxtoem.com >Pixel Converter</li>
+				</ul>
+			</section>
+		</aside>	
+	</section>		
+					
+	<footer>
+		<ul>
+			<li><b>&copy; 2018 by Stephan Vogel</b></li>
+			<li><a href="Datenschutz.html">Datenschutz</li>
+			<li><a href="Impressum.html">Impressum</li>
+			<li><a href="Quellen.html">Quellen</li>
+		</ul>		
+	</footer>
+	
+ </body>
+</html>
